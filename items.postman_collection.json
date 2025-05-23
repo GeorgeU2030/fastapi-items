@@ -1,0 +1,53 @@
+{
+	"info": {
+		"_postman_id": "338564ef-705a-42c0-a7a4-4625457e05f7",
+		"name": "items",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32465212"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8000/items",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"items"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:8000/items/?item=pc",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"items",
+						""
+					],
+					"query": [
+						{
+							"key": "item",
+							"value": "pc"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
